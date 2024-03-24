@@ -1,7 +1,6 @@
 import { FcGoogle } from "react-icons/fc";
 import {
   RiMailLine,
-  RiUserLine,
   RiEyeLine,
   RiEyeOffLine,
   RiLock2Line,
@@ -23,7 +22,7 @@ export const Login = () => {
   const inputClass = "bg-inherit w-full outline-none text-sm md:text-base";
 
   return (
-    <div className="text-color-light bg-primary-dark-900/75 md:bg-primary-dark-900 flex flex-col justify-center items-center gap-6 py-6 px-6 shadow-lg relative rounded-xl md:rounded-none w-[80vw] md:w-[45vw] lg:w-[40vw] md:h-screen">
+    <div className="text-color-light bg-primary-dark-900/75 md:bg-primary-dark-900 flex flex-col justify-center items-center gap-6 py-6 px-6 shadow-lg relative rounded-xl md:rounded-none w-[90vw] md:w-[50vw] lg:w-[40vw] md:h-screen">
       {/* borde con efecto fade-in fade-out */}
       {/* <div className="rounded-xl w-full h-full shadow-xl shadow-accent-primary/40 animate-pulse absolute"></div> */}
 
@@ -40,15 +39,6 @@ export const Login = () => {
 
       <form className="flex flex-col justify-center items-center gap-4 w-full">
         <div className={inputContainerClass}>
-          <RiUserLine className="text-accent-primary" size={iconSize} />
-          <input
-            type="text"
-            placeholder="Juan Pedraza"
-            className={inputClass}
-          />
-        </div>
-
-        <div className={inputContainerClass}>
           <RiMailLine className="text-accent-primary" size={iconSize} />
           <input
             type="email"
@@ -62,7 +52,7 @@ export const Login = () => {
           <input
             type={showPassword ? "text" : "password"}
             autoComplete="false"
-            placeholder="**********"
+            placeholder="Contraseña"
             className={inputClass}
           />
           {showPassword ? (
