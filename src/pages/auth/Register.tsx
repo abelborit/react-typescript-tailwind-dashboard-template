@@ -28,15 +28,24 @@ export const Register = () => {
     "flex justify-center items-center bg-gray-800 hover:bg-gray-900 w-full max-w-[350px] rounded-xl px-4 py-3 gap-3";
 
   const inputClass = "bg-inherit w-full outline-none text-sm md:text-base";
+  const titleClass =
+    "font-LatoItalic text-5xl md:text-6xl text-center font-bold tracking-[4px]";
 
   return (
     <div className="text-color-light bg-primary-dark-900/75 md:bg-primary-dark-900 flex flex-col justify-center items-center gap-6 py-6 px-6 shadow-lg relative rounded-xl md:rounded-none w-[90vw] md:w-[50vw] lg:w-[40vw] md:h-screen">
       {/* borde con efecto fade-in fade-out */}
       {/* <div className="rounded-xl w-full h-full shadow-xl shadow-accent-primary/40 animate-pulse absolute"></div> */}
 
-      <h2 className="text-4xl md:text-5xl text-center uppercase font-bold tracking-[4px] text-accent-primary">
-        Register Now!
-      </h2>
+      <div className="relative w-full">
+        <h2 className={`relative text-accent-primary z-40 ${titleClass}`}>
+          Register Now!
+        </h2>
+        <h2
+          className={`absolute top-[3.5px] left-[3px] w-full text-accent-primary/25 ${titleClass}`}
+        >
+          Register Now!
+        </h2>
+      </div>
 
       <button className="bg-zinc-600 hover:bg-zinc-700 w-full max-w-[350px] py-3 rounded-full flex justify-center items-center gap-3 outline-none hover:scale-95 transition-all duration-300">
         <FcGoogle size={20} />
@@ -121,7 +130,7 @@ export const Register = () => {
         <span>You already have account?</span>
         <Link
           to="/auth/login"
-          className="text-accent-secondary hover:text-accent-secondary/75"
+          className="font-LatoItalic font-bold tracking-[1px] text-accent-secondary hover:text-accent-secondary/75"
         >
           Login now!
         </Link>
