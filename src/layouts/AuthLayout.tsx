@@ -7,7 +7,7 @@ export const AuthLayout = () => {
       {/* cargar la imagen más adecuada según el dispositivo */}
       {/* Atribución de la imagen: https://unsplash.com/es/fotos/bloques-de-madera-blancos-y-negros-ICTjWYzpoc0?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash */}
       <img
-        className="h-screen w-screen object-cover md:w-[55vw] md:translate-x-[45vw] lg:w-[60vw] lg:translate-x-[40vw]"
+        className="h-screen w-screen object-cover md:w-[50vw] md:translate-x-[50vw] lg:w-[60vw] lg:translate-x-[40vw]"
         src="/src/assets/images/background-wallpaper-650.jpg"
         alt="Background Modern"
         srcSet="
