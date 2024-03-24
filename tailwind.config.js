@@ -20,6 +20,12 @@ export default {
         danger: "#dc3545",
         info: "#17a2b8",
       },
+      fontFamily: {
+        OpenSans: ["OpenSans"],
+        OpenSansItalic: ["OpenSansItalic"],
+        Lato: ["Lato"],
+        LatoItalic: ["LatoItalic"],
+      },
     },
   },
   plugins: [],
