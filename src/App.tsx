@@ -1,6 +1,6 @@
 import { RouterProvider } from "react-router-dom";
 import { router } from "./routes";
-import { LoaderComponent } from "./components/LoaderComponent";
+import { LoaderComponent } from "./components/LoaderComponent/LoaderComponent";
 import "./App.css";
 
 function App() {
