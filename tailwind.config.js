@@ -11,7 +11,7 @@ export default {
           900: "#cad0d7",
         },
         "primary-dark": {
-          500: "#383d41",
+          700: "#313339",
           900: "#23242A",
         },
         "color-light": "#e4e8e9",
