@@ -2,7 +2,7 @@ import { Outlet } from "react-router-dom";
 
 export const AuthLayout = () => {
   return (
-    <div className="relative">
+    <div className="relative bg-primary-dark-900 w-screen min-h-screen">
       {/* Imagen de fondo */}
       {/* cargar la imagen más adecuada según el dispositivo */}
       {/* Atribución de la imagen: https://unsplash.com/es/fotos/bloques-de-madera-blancos-y-negros-ICTjWYzpoc0?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash */}
